@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #131a2b, #0a0f1f);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 28px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(6px);
+}
+
+nav button {
+  margin-left: 12px;
+  background: #222;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+nav button:hover {
+  background: #444;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+canvas {
+  border-radius: 12px;
+  box-shadow: 0 0 20px #000;
+  background: #000;
+}
+
+#scoreUI {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+}
