@@ -3,29 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DSRT AI Game Creator</title>
+  <title>🎨 DSRT AI Game Creator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>🎨 DSRT AI Game Creator</h1>
-    <nav>
-      <a href="index.html">🏠 Arcade</a>
-    </nav>
+    <h1>DSRT AI Game Creator</h1>
+    <nav><a href="index.html">🏠 Arcade</a></nav>
   </header>
 
   <main id="studio">
     <section id="ai-panel">
-      <h2>🤖 Buat Game dengan AI</h2>
-      <textarea id="prompt" placeholder="contoh: buat game bola pantul dengan gravitasi dan skor"></textarea>
-      <button id="generateBtn">⚡ Generate Game</button>
+      <textarea id="prompt" placeholder="contoh: buat game bola pantul dengan gravitasi"></textarea>
+      <button id="generateBtn">⚡ Generate</button>
       <button id="voiceBtn">🎤 Voice</button>
       <div id="ai-status"></div>
     </section>
 
-    <section id="editor">
-      <canvas id="editorCanvas" width="960" height="540"></canvas>
-    </section>
+    <canvas id="editorCanvas" width="960" height="540"></canvas>
   </main>
 
   <script src="ai.js"></script>
