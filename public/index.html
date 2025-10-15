@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSRT Arcade v3</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎮 DSRT Arcade v3</h1>
+    <nav id="gameList"></nav>
+  </header>
+
+  <main>
+    <canvas id="gameCanvas" width="960" height="540"></canvas>
+    <div id="scoreUI">Score: <span id="scoreValue">0</span></div>
+    <button id="installApp">📲 Install App</button>
+  </main>
+
+  <aside id="leaderboard">
+    <h3>🏆 Leaderboard</h3>
+    <ul id="leaderList"></ul>
+  </aside>
+
+  <footer>
+    <button id="logoutBtn">Logout</button>
+    <p>DSRT Engine v3 — Online Edition</p>
+  </footer>
+
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
