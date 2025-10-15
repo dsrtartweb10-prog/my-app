@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "🚀 Memulai Modern CLI..."
+echo "🚀 Menjalankan Modern Dashboard..."
 npm install
-npm start
+npm run dev
