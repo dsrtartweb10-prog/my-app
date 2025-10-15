@@ -2,10 +2,12 @@
   "name": "dsrt-arcade-v5",
   "version": "1.0.0",
   "description": "DSRT Arcade Engine v5 - AI Hybrid Creator Edition",
-  "main": "server.js",
+  {
+  "type": "module",
   "scripts": {
     "start": "node server.js"
-  },
+  }
+}
   "dependencies": {
     "express": "^4.19.2"
   }
