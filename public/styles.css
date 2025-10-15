@@ -1,60 +1,50 @@
 body {
+  background-color: #0a0a0a;
+  color: #eee;
+  font-family: "Inter", sans-serif;
   margin: 0;
-  background: radial-gradient(circle at top, #131a2b, #0a0f1f);
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  height: 100vh;
 }
 
 header {
+  background: #111;
+  color: #00f0ff;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
-  padding: 14px 28px;
-  background: rgba(255,255,255,0.05);
-  backdrop-filter: blur(6px);
+  align-items: center;
+  box-shadow: 0 0 15px #00f0ff33;
 }
 
-nav button {
-  margin-left: 12px;
-  background: #222;
-  color: white;
-  border: none;
-  padding: 8px 14px;
+button {
+  background: #00f0ff22;
+  border: 1px solid #00f0ff55;
+  color: #00f0ff;
   border-radius: 8px;
+  padding: 0.6rem 1rem;
   cursor: pointer;
   transition: 0.2s;
 }
-nav button:hover {
-  background: #444;
+button:hover { background: #00f0ff44; }
+
+#ai-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 1rem;
+}
+
+#editorCanvas {
+  border: 1px solid #333;
+  margin-left: 20px;
+  background: #181818;
 }
 
 main {
-  flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-canvas {
-  border-radius: 12px;
-  box-shadow: 0 0 20px #000;
-  background: #000;
-}
-
-#scoreUI {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background: rgba(0,0,0,0.4);
+  flex: 1;
+  padding: 1rem;
 }
