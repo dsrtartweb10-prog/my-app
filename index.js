@@ -8,7 +8,6 @@ import ora from "ora";
 
 console.clear();
 
-// Tampilan judul
 console.log(
   gradient.pastel.multiline(
     figlet.textSync("Modern CLI", {
