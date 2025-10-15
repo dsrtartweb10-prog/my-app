@@ -1,5 +1,4 @@
 #!/bin/bash
-
-echo "🚀 Menjalankan Modern Dashboard..."
+echo "🚀 Menjalankan DSRT Arcade Engine v5"
 npm install
-npm run dev
+node server.js
